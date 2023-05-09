@@ -1,0 +1,59 @@
+﻿namespace = BDW_custom_nickname
+
+BDW_custom_nickname.100 = {
+	type = character_event
+	title = BDW_custom_nickname.100.t
+	desc = BDW_custom_nickname.100.desc
+	theme = court
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_any_nickname = yes
+			}
+			remove_nickname = yes
+		}
+	}
+
+	widget = {
+		gui = "BDW_event_window_widget_enter_nickname"
+		container = "dynamic_birth_name"
+		controller = {
+			type = text
+			data = {
+				key = BDW_custom_nickname_text
+				default = {
+					localization_key = nick_BDW_custom_nickname1
+				}
+				#default = {
+				#	localization_key = nick_BDW_custom_nickname2
+				#}
+			}
+		}
+		setup_scope = {
+			root = { save_scope_as = text_target }
+		}
+	}
+
+	option = { 
+		name = BDW_custom_nickname.100.a
+	}
+
+	after = {
+		set_variable = {
+			name = BDW_custom_nickname_text
+			value = flag:custom
+		}
+		hidden_effect = {
+			set_nickname_effect = { NICKNAME = nick_BDW_custom_nickname2 }
+			#add_character_flag = BDW_custom_nickname
+		}
+		store_localized_text_in_death = BDW_custom_nickname_text
+	}
+
+
+}

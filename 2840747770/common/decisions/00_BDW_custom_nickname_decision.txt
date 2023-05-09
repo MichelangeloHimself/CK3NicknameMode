@@ -1,0 +1,41 @@
+﻿BDW_custom_nickname_decision = {
+	
+	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
+
+	desc = BDW_custom_nickname_decision_desc
+
+	ai_check_interval = 0
+
+	major = no
+
+	is_shown = {
+		#NOT = { has_character_flag = BDW_custom_nickname }
+		#NOT = { has_nickname = nick_BDW_custom_nickname2 }
+	}
+
+	#is_valid = {
+	#	prestige_level >= 3
+	#	is_independent_ruler = yes
+	#}
+
+	#cost = {
+	#	prestige = massive_prestige_value
+	#}
+
+	#cooldown = { years = 50 }
+
+	effect = {
+		custom_tooltip = BDW_custom_nickname_decision_custom_tooltip.1
+		custom_tooltip = BDW_custom_nickname_decision_custom_tooltip.2
+		trigger_event = BDW_custom_nickname.100
+	}
+
+	ai_potential = {
+		always = no
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+
+}

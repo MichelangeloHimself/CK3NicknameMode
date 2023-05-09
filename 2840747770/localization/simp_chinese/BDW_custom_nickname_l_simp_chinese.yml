@@ -1,0 +1,17 @@
+﻿l_simp_chinese:
+  BDW_custom_nickname_decision:0 "添加绰号"
+  BDW_custom_nickname_decision_desc:0 "取一个你自己选择的绰号"
+  BDW_custom_nickname_decision_confirm:0 "添加一个自定义绰号"
+  BDW_custom_nickname_decision_tooltip:0 "添加一个你自己选择的自定义绰号"
+  BDW_custom_nickname_decision_custom_tooltip.1:0 "移除当前绰号，如果有"
+  BDW_custom_nickname_decision_custom_tooltip.2:0 "开启一个可以给自己输入新绰号的窗口"
+
+  BDW_custom_nickname.100.t:0 "自定义称号"
+  BDW_custom_nickname.100.desc:0 "你必须做出重要地决定，你想被称为什么？\n\n如果你做了错误的决定，那么你将不得不在很长一段时间内忍受它。"
+  BDW_custom_nickname.100.a:0 "从今以后，我将被称为……"
+
+   #Both of these are needed for the custom nickname to work properly.
+  nick_BDW_custom_nickname1:0 "[ROOT.Char.GetLocalizedText('BDW_custom_nickname_text')]"
+  nick_BDW_custom_nickname2:0 "[CHARACTER.Custom('BDWCustomNickname')]"
+
+  nick_BDW_custom_nickname_default:0 "已故者"

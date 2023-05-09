@@ -1,0 +1,18 @@
+﻿l_german:
+  BDW_custom_nickname_decision:0 "Erhaltet einen Beinamen"
+  BDW_custom_nickname_decision_desc:0 "Wählt einen Beinamen nach Eurem Belieben"
+  BDW_custom_nickname_decision_confirm:0 "Erhaltet einen individuellen Beinamen"
+  BDW_custom_nickname_decision_tooltip:0 "Erhaltet einen individuellen Beinamen"
+  BDW_custom_nickname_decision_custom_tooltip.1:0 "Entfernt Euren derzeitigen Beinamen, falls Ihr einen habt"
+  BDW_custom_nickname_decision_custom_tooltip.2:0 "Öffnet ein Feld, in dem Ihr einen neuen Beinamen für Euch vergeben könnt"
+
+  BDW_custom_nickname.100.t:0 "Individueller Beiname"
+  BDW_custom_nickname.100.desc:0 "Eine wichtige Entscheidung steht an: Wie wollt Ihr genannt werden? \n\Wenn Ihr eine schlechte Entscheidung trefft, müsst Ihr lange Zeit damit leben."
+  BDW_custom_nickname.100.a:0 "Fortan werde ich bekannt sein als..."
+
+  #Beides ist erforderlich, damit der individuelle Beiname einwandfrei genutzt werden kann.
+  nick_BDW_custom_nickname1:0 "[ROOT.Char.GetLocalizedText('BDW_custom_nickname_text')]"
+  #nick_BDW_custom_nickname2:0 "[ROOT.Char.Custom('BDWCustomNickname')]"
+  nick_BDW_custom_nickname2:0 "[CHARACTER.Custom('BDWCustomNickname')]"
+
+  nick_BDW_custom_nickname_default:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Verstorbene"

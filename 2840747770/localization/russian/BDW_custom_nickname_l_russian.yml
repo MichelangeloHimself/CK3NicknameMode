@@ -1,0 +1,18 @@
+﻿l_russian:
+ BDW_custom_nickname_decision:0 "Получить прозвище"
+ BDW_custom_nickname_decision_desc:0 "Возьмите себе прозвище по собственному выбору"
+ BDW_custom_nickname_decision_confirm:0 "Получение пользовательского прозвища"
+ BDW_custom_nickname_decision_tooltip:0 "Получите пользовательское прозвище по собственному выбору"
+ BDW_custom_nickname_decision_custom_tooltip.1:0 "Удаляет ваше текущее прозвище, если оно у вас есть"
+ BDW_custom_nickname_decision_custom_tooltip.2:0 "Открывает окно, в котором вы можете ввести новое прозвище для себя"
+
+ BDW_custom_nickname.100.t:0 "Пользовательское прозвище"
+ BDW_custom_nickname.100.desc:0 "Вам предстоит принять важное решение: как вы хотите, чтобы вас называли? \n\nЕсли вы совершите ошибку, вам придется жить с этим долгое время."
+ BDW_custom_nickname.100.a:0 "Отныне я буду известен как..."
+
+ #Both of these are needed for the custom nickname to work properly.
+ nick_BDW_custom_nickname1:0 "[ROOT.Char.GetLocalizedText('BDW_custom_nickname_text')]"
+ #nick_BDW_custom_nickname2:0 "[ROOT.Char.Custom('BDWCustomNickname')]"
+ nick_BDW_custom_nickname2:0 "[CHARACTER.Custom('BDWCustomNickname')]"
+
+ nick_BDW_custom_nickname_default:0 "Покойный"

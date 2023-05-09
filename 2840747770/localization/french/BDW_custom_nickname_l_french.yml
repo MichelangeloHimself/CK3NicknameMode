@@ -1,0 +1,18 @@
+﻿l_french:
+  BDW_custom_nickname_decision:0 "Gain a Nickname"
+  BDW_custom_nickname_decision_desc:0 "Take a nickname of your own choosing"
+  BDW_custom_nickname_decision_confirm:0 "Gain a Custom Nickname"
+  BDW_custom_nickname_decision_tooltip:0 "Gain a custom nickname of your own choosing"
+  BDW_custom_nickname_decision_custom_tooltip.1:0 "Removes your current Nickname, if you have one"
+  BDW_custom_nickname_decision_custom_tooltip.2:0 "Opens up a window where you can enter a new nickname for yourself"
+
+  BDW_custom_nickname.100.t:0 "Custom Nickname"
+  BDW_custom_nickname.100.desc:0 "A important decision has to be made, what do you wish to be called? \n\nIf you make a poor decision then you will have to live with it for a long time."
+  BDW_custom_nickname.100.a:0 "Henceforth I shall be known as..."
+
+   #Both of these are needed for the custom nickname to work properly.
+  nick_BDW_custom_nickname1:0 "[ROOT.Char.GetLocalizedText('BDW_custom_nickname_text')]"
+  #nick_BDW_custom_nickname2:0 "[ROOT.Char.Custom('BDWCustomNickname')]"
+  nick_BDW_custom_nickname2:0 "[CHARACTER.Custom('BDWCustomNickname')]"
+
+  nick_BDW_custom_nickname_default:0 "the Deceased"

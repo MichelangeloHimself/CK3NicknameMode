@@ -1,0 +1,7 @@
+﻿BDWCustomNickname = {
+	type = character
+
+	text = {
+		localization_key = nick_BDW_custom_nickname1
+	}
+}

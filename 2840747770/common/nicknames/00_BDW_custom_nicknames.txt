@@ -1,0 +1,2 @@
+﻿nick_BDW_custom_nickname1 = {}
+nick_BDW_custom_nickname2 = {}
